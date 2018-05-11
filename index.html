@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!--XXX почему  en?-->
+<html lang="ru"
+      itemscope="itemscope"
+      itemtype="http://schema.org/WebPage"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>ГосДума</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="center-box">
+
+        <!--------------------------------------HEADER MAIN----------------------------------------------->
+        <header class="header-main">
+            <!--если используешь section нужно использовать заголовки -->
+            <section class="navigation-link">
+                <div class="navigation-links-social">
+                    <a class="links-social" href="#">В социальных сетях</a>
+                </div>
+
+                <div class="navigation-links-search">
+                    <a class="links-english" href="#">English</a>
+                    <a class="links-search" href="#"></a>
+                </div>
+            </section>
+
+            <div class="header-main-caption">
+                <!-- лучше не использовать несколько h1 на странице
+                здесь может быть заголовк h2
+                -->
+                <h1 class="full-caption">Государственная дума</h1>
+
+                <h1 class="adaptive-caption">ГОСДУМА</h1>
+
+                <p>Федеральное собрание российской федерации</p>
+            </div>
+
+            <nav class="header-main-nav">
+                <ul>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Госдума</a></li>
+                    <li><a href="#">Видео и Фото</a></li>
+                    <li><a href="#">Сервисы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li class="no-link">Деятельность:</li>
+                    <li><a href="#">Законодательная</a></li>
+                    <li><a href="#">Представительная</a></li>
+                    <li><a href="#">Международная</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <!--------------------------------------header end----------------------------------------------->
+    </div>
+    <!--center-box End-->
+
+    <!-------------------------------------------MAIN------------------------------------------------->
+    <main class="center-box">
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="#">Все новости</a></li>
+                <li><a href="#">Председатель</a></li>
+                <li><a href="#">Комитеты и комиссии</a></li>
+                <li><a href="#">Международные</a></li>
+            </ul>
+
+            <div class="select-date">
+                <a href="#">Выберете дату в календаре</a>
+            </div>
+
+        </nav>
+
+
+        <!--Лучще поместить новости в список или в section, article - использовать для статьи -->
+        <article class="all-news">
+            <!-- заголовок h1 предпочтительней - это главная инфа на странице-->
+            <h2 class="news-caption">Все новости</h2>
+
+            <article class="news-block">
+                 <!-- section использовать можно, но бессмысленно, т.к. здесь только 1 section-->
+                <!-- Это список новостей, которые открываются по ссылке, нет ссылок на новость-->
+                <section class="block-content">
+                    <h3 class="block-content-caption">
+                        Состоялось заседание Комитета по экономической политике, промышленности, инновационному развитию
+                        и предпринимательству
+                    </h3>
+
+                    <div class="news-time">
+                        <!-- не валидно
+                        Attribute date not allowed on element time at this point.
+                        -->
+                        <time dat   time="2017-03-23T16:30">20 минут назад</time>
+                    </div>
+                    <p class="block-content-p">
+                        22 июня состоялось заседание Комитета по экономической политике, промышленности, инновационному
+                        развитию и предпринимательству
+                    </p>
+                </section>
+                <aside class="img-box">
+                    <img src="img/img1.jpg" alt="">
+                </aside>
+            </article>
+
+            <article class="news-block">
+
+                <section class="block-content">
+                    <h3 class="block-content-caption">
+                        Предлагается штрафовать за мелкое хулиганство
+                        в любом месте
+                    </h3>
+
+                    <div class="news-time">
+                        <time date="2017-03-23T16:30">20 минут назад</time>
+                    </div>
+                    <p class="block-content-p">
+                        Комитет по государственному строительству и законодательству рекомендовал принять в первом
+                        чтении законопроект № 545442-6 «О внесении изменения в статью 20.1 Кодекса Российской Федерации
+                        об административных правонарушениях»
+                    </p>
+                </section>
+                <aside class="img-box">
+                    <img src="img/img2.jpg" alt="">
+                </aside>
+            </article>
+
+            <article class="news-block">
+
+                <section class="block-content">
+                    <h3 class="block-content-caption">
+                        Внесен законопроект об оплате государственных и муниципальных услуг через МФЦ
+                    </h3>
+
+                    <div class="news-time">
+                        <time date="2017-03-23T16:30">23.03.2017, 22:30</time>
+                    </div>
+                    <p class="block-content-p">
+                        В МФЦ смогут осуществлять финансовые операции – в частности, принимать деньги от заявителей в
+                        счет оплаты госпошлины и за оказание госуслуг
+                    </p>
+                </section>
+                <aside class="img-box">
+                    <img src="img/img3.jpg" alt="">
+                </aside>
+            </article>
+
+            <article class="news-block">
+
+                <section class="block-content">
+                    <h3 class="block-content-caption">
+                        Законопроект об ответственности мессенджеров
+                        за неисполнение установленных обязанностей рекомендован к принятию в первом чтении
+                    </h3>
+
+                    <div class="news-time">
+                        <time date="2017-03-23T16:30">23.03.2017, 22:30</time>
+                    </div>
+                </section>
+                <aside class="img-box">
+                    <img src="img/img4.jpg" alt="">
+                </aside>
+            </article>
+
+            <article class="news-block">
+
+                <section class="block-content">
+                    <h3 class="block-content-caption">
+                        В Иркутске состоятся заседание межфракционной рабочей группы «Байкал»
+                        и «круглый стол» Комитета по природным ресурсам, собственности
+                        и земельным отношениям
+                    </h3>
+
+                    <div class="news-time">
+                        <time date="2017-03-23T16:30">23.03.2017, 22:30</time>
+                    </div>
+                    <p class="block-content-p">
+                        Cостоятся заседание межфракционной рабочей группы «Байкал» и «круглый стол» Комитета по
+                        природным ресурсам, собственности и земельным отношениям
+                    </p>
+                </section>
+            </article>
+
+            <article class="news-block">
+
+                <section class="block-content">
+                    <h3 class="block-content-caption">
+                        В Госдуме обсудили вопросы противодействия опасным молодежным неформальным движениям
+                    </h3>
+
+                    <div class="news-time">
+                        <time date="2017-03-23T16:30">23.03.2017, 22:30</time>
+                    </div>
+                    <p class="block-content-p">
+                        Обсудили вопросы противодействия опасным молодежным неформальным движениям
+                    </p>
+                </section>
+                <aside class="img-box">
+                    <img src="img/img5.jpg" alt="">
+                </aside>
+            </article>
+
+            <article class="news-block">
+
+                <section class="block-content">
+                    <h3 class="block-content-caption">
+                        Предлагается штрафовать за мелкое хулиганство в любом месте
+                    </h3>
+
+                    <div class="news-time">
+                        <time date="2017-03-23T16:30">23.03.2017, 22:30</time>
+                    </div>
+                    <p class="block-content-p">
+                        Комитет по государственному строительству и законодательству рекомендовал принять в первом
+                        чтении законопроект № 545442-6 «О внесении изменения в статью 20.1 Кодекса Российской Федерации
+                        об административных правонарушениях»
+                    </p>
+                </section>
+            </article>
+
+        </article>
+    </main>
+    <!--end-->
+
+
+
+
+    <!--FOOTER MAIN-->
+
+    <footer class="footer-main">
+
+        <div class="center-box">
+
+            <nav class="footer-main-nav">
+                <ul>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Госдума</a></li>
+                    <li><a href="#">Видео и Фото</a></li>
+                    <li><a href="#">Сервисы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li class="no-link">Деятельность:</li>
+                    <li><a href="#">Законодательная</a></li>
+                    <li><a href="#">Представительная</a></li>
+                    <li><a href="#">Международная</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-info">
+
+                <div class="link-main">
+                    <a href="#">Государственная Дума<br>
+                        Российской федерации</a>
+                </div>
+
+                <div class="footer-info-block">
+                    <div class="footer-contacts">
+                        <p class="Reference">
+                            <!-- оформлять телефоны ссылками, чтобы можно было их использовать на телефоне-->
+                            Справочная: <span class="phone-number">+7 495 629-70-09</span>
+                        </p>
+
+                        <p class="address">
+                            <!-- адрес тоже оформлять ссылкой-->
+                            Адрес: <span>г. Москва, ул. Большая Дмитровка, д. 26 </span>
+                        </p>
+                    </div>
+
+                    <div class="footer-copyright">
+                        <p>
+                            Все материалы сайта доступны по лицензии:<br>
+                            <span>Creative Commons Attribution 4.0 International</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--center box end-->
+
+
+
+
+    </footer>
+    <!--end-->
+
+    <section class="subscription">
+        <div class="center-box">
+
+            <div class="subscription-caption">
+                <h3>Подписка</h3>
+
+                <p>Оставьте ваш e-mail, чтобы получать новости</p>
+            </div>
+
+            <form class="subscription-form" action="" method="get">
+                <input type="email" name="email" placeholder="Электронная Почта">
+<!--                 лучше использовать button !!-->
+                <input type="submit" value="Подписаться">
+                <a href="#">настроить подписку</a>
+            </form>
+
+        </div>
+        <!--center box end-->AAAAAAA
+    </section>
+
+
+</body>
+</html>
