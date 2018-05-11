@@ -576,7 +576,8 @@ main {
     }
 
     .news-time {
-        position: static;
+        position: absolute;
+        min-width: 200px;
     }
 
     .block-content .block-content-caption {
